@@ -1,0 +1,16 @@
+en el modal debemos tener en cuenta enviar estea opcion para activiar en el js
+
+<input type="hidden" class="form-control" name="txtopcion" id="txtopcion" value="insertar">
+
+
+los botones del modal deben tener los id para poderlos utilizar en el js
+
+<div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-secondary">Cerrar</button>
+                    <button id="sendDatos" class="btn btn-success">Enviar</button>
+                </div>
+                
+el modal tambien debe tener un id para poderlo reconocer 
+
+ <div class="modal fade" id="crearusu" tabindex="-1" role="dialog" aria-hidden="true">
+
